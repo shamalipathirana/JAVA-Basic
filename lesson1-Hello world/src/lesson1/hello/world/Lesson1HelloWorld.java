@@ -16,9 +16,9 @@ public class Lesson1HelloWorld {
      */
     public static void main(String[] args) {
         System.out.println("Hello sha.Now You are going to learn java");
-        System.out.println("I am a /t undergraduate");
-        System.out.println("I am a /n undergraduate");
-        //System.out.println("I am a "/undergraduate"/");
+        System.out.println("I am a \t undergraduate");
+        System.out.println("I am a \n undergraduate");
+        System.out.println("I am a \"undergraduate\"");
     }
     
 }
