@@ -23,12 +23,19 @@ public class Lesson8MethodParameters {
     static int myMethod3(int k,int y){
         return k*y;
     }
+    
+    static int myMethod4(int a,int b){
+        return a+b;
+    }
     public static void main(String[] args) {
         myMethod("shamali",25);
         
         System.out.println(myMethod2(5));
         
         System.out.println(myMethod3(2,6));
+        
+        int z=myMethod4(5,7);
+        System.out.println(z);
     }
     
 }
