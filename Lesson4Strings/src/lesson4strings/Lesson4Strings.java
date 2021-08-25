@@ -17,6 +17,11 @@ public class Lesson4Strings {
     public static void main(String[] args) {
         String txt="ABCDEFGHIJKLMNOPQRSTUVWXYZ";
         System.out.println(txt);
+        System.out.println(txt.length());
+        
+        String name="shamali";
+        System.out.println(name.toUpperCase());
+        System.out.println(name.toLowerCase());
     }
     
 }
